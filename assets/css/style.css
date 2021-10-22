@@ -1,24 +1,38 @@
 /*Estilos da página index.html*/
 .center{
     text-align: center;
+    margin: 0px;
 }
 .justify{
-    text-align: justify;
+   text-align:justify
 }
 .container{
     display: flex;
-    flex-flow: row;
+    flex-flow: row ;
     justify-content: center;
     align-items: center;
+}
+
+.background{
+    background-color: rgb(212, 225, 240);
+    font-family: sans-serif;
+    color: rgba(21, 67, 100, 0.993);
+}
+#menu{
+    background-color: rgb(131, 178, 231);
+    color: rgba(21, 67, 100, 0.993);
+    padding: 30px;
 }
 #menu li{
     display: inline;
     padding: 15px;
+    
 }
 #menu li a{
+    
     text-decoration: none;
-    color: black;
-    font-size: 20px;   
+    color: rgba(21, 67, 100, 0.993);
+    font-size: 20px; 
 }
 #menu li a:hover{ /*Muda a cor ao passar o cursos do mouse*/
     color: gray;
@@ -41,4 +55,3 @@
     margin-bottom: 50px;
 }
 
-/*Estilos da página contato.html*/
