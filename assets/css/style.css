@@ -4,7 +4,8 @@
     margin: 0px;
 }
 .justify{
-   text-align:justify
+   text-align:justify;
+   font-size:20px;
 }
 .container{
     display: flex;
